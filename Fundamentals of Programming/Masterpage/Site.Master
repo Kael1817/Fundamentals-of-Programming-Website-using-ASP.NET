@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Fundamentals_of_Programming.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Fundamentals of Programming</title>
+    <link href="<%: ResolveUrl("~/MasterPage/Site.css") %>" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="main">
+       <nav class="sidebar">
+            <h2>Programming</h2>
+            <p>Master the fundamentals</p>
+            <asp:Repeater ID="RepeaterNavbar" runat="server">
+                <ItemTemplate>
+                    <div class="nav-item">
+                        <a class="nav-link" href='<%# ResolveUrl(Eval("Url").ToString()) %>'>
+                            <div class="nav-item-container">
+                                <div class="icon-container">
+                                    <img src='<%# ResolveUrl(Eval("Icon").ToString()) %>' 
+                                         alt='<%# Eval("Title") %> icon' class="nav-icon" />
+                                </div>
+                                <div class="title-container">
+                                    <span class="nav-title"><%# Eval("Title") %></span><br />
+                                    <small class="nav-subtitle"><%# Eval("Subtitle") %></small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </ItemTemplate>
+            </asp:Repeater>
+        </nav>
+
+
+        <main class="content">
+            <asp:ContentPlaceHolder ID="contents" runat="server"></asp:ContentPlaceHolder>
+        </main>
+    </div>
+    
+</body>
+</html>
