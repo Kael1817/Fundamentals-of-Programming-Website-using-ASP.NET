@@ -115,6 +115,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Home\Home.css" />
     <Content Include="Icons\database.png" />
     <Content Include="favicon.ico" />
     <Content Include="Icons\git-branch.png" />

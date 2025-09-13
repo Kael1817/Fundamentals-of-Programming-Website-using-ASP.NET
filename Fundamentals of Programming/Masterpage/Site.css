@@ -5,8 +5,9 @@
     padding: 0;
 }
 
-body {
+html, body {
     font-family: 'Inter';
+    height: 100%
 }
 
 .main {
@@ -14,7 +15,7 @@ body {
     height: 100vh;
 }
 
-.content {
+.main-content {
     display: flex;
     height: 100vh;
     flex: 1;
@@ -23,8 +24,8 @@ body {
 .sidebar {
     width: 250px;
     padding: 40px;
-    border-right: 1px #e2e8f0 solid;
     flex-shrink: 0;
+    border-right: 1px solid black;
 }
 
     .sidebar p {

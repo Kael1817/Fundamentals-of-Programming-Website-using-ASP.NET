@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title>Fundamentals of Programming</title>
-    <link href="<%: ResolveUrl("~/MasterPage/Site.css") %>" rel="stylesheet" />
+    <link href="Site.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -35,7 +35,7 @@
         </nav>
 
 
-        <main class="content">
+        <main class="main-content">
             <asp:ContentPlaceHolder ID="contents" runat="server"></asp:ContentPlaceHolder>
         </main>
     </div>
