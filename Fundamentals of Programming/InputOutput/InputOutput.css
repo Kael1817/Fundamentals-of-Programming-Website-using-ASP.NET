@@ -1,0 +1,15 @@
+﻿.lesson {
+    padding: 50px 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.lesson-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+    .lesson-container p {
+        color: #64748b;
+    }

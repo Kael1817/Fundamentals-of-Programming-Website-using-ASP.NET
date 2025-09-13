@@ -121,9 +121,14 @@
     <Content Include="Icons\git-branch.png" />
     <Content Include="Global.asax" />
     <Content Include="Icons\house.png" />
+    <Content Include="InputOutput\InputOutput.css" />
     <Content Include="Masterpage\Site.css" />
     <Content Include="Home\Home.aspx" />
     <Content Include="Icons\rotate-ccw.png" />
+    <Content Include="InputOutput\InputOutput.aspx" />
+    <Content Include="Loops\Loops.aspx" />
+    <Content Include="ConditionalStatements\ConditionalStatements.aspx" />
+    <Content Include="Variables\Variables.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -196,6 +201,34 @@
     </Compile>
     <Compile Include="Home\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InputOutput\InputOutput.aspx.cs">
+      <DependentUpon>InputOutput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputOutput\InputOutput.aspx.designer.cs">
+      <DependentUpon>InputOutput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loops\Loops.aspx.cs">
+      <DependentUpon>Loops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loops\Loops.aspx.designer.cs">
+      <DependentUpon>Loops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionalStatements\ConditionalStatements.aspx.cs">
+      <DependentUpon>ConditionalStatements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatements\ConditionalStatements.aspx.designer.cs">
+      <DependentUpon>ConditionalStatements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Variables\Variables.aspx.cs">
+      <DependentUpon>Variables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Variables\Variables.aspx.designer.cs">
+      <DependentUpon>Variables.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Masterpage\Site.Master.cs">
