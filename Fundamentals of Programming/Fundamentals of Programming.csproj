@@ -100,6 +100,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ConditionalStatements\ConditionalStatements.css" />
+    <Content Include="ConditionalStatements\Example1.aspx" />
+    <Content Include="ConditionalStatements\Example2.aspx" />
+    <Content Include="ConditionalStatements\Example3.aspx" />
+    <Content Include="ConditionalStatements\Example4.aspx" />
+    <Content Include="ConditionalStatements\Example5.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -122,6 +127,11 @@
     <Content Include="Icons\git-branch.png" />
     <Content Include="Global.asax" />
     <Content Include="Icons\house.png" />
+    <Content Include="InputOutput\Example1.aspx" />
+    <Content Include="InputOutput\Example2.aspx" />
+    <Content Include="InputOutput\Example3.aspx" />
+    <Content Include="InputOutput\Example4.aspx" />
+    <Content Include="InputOutput\Example5.aspx" />
     <Content Include="InputOutput\InputOutput.css" />
     <Content Include="Loops\Example1.aspx" />
     <Content Include="Loops\Example2.aspx" />
@@ -132,9 +142,14 @@
     <Content Include="Masterpage\Site.css" />
     <Content Include="Home\Home.aspx" />
     <Content Include="Icons\rotate-ccw.png" />
-    <Content Include="InputOutput\InputOutput.aspx" />
     <Content Include="Loops\Loops.aspx" />
     <Content Include="ConditionalStatements\ConditionalStatements.aspx" />
+    <Content Include="InputOutput\InputOutput.aspx" />
+    <Content Include="Variables\Example1.aspx" />
+    <Content Include="Variables\Example2.aspx" />
+    <Content Include="Variables\Example3.aspx" />
+    <Content Include="Variables\Example4.aspx" />
+    <Content Include="Variables\Example5.aspx" />
     <Content Include="Variables\Variables.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -200,6 +215,41 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="ConditionalStatements\Example1.aspx.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example1.aspx.designer.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example2.aspx.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example2.aspx.designer.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example3.aspx.cs">
+      <DependentUpon>Example3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example3.aspx.designer.cs">
+      <DependentUpon>Example3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example4.aspx.cs">
+      <DependentUpon>Example4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example4.aspx.designer.cs">
+      <DependentUpon>Example4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example5.aspx.cs">
+      <DependentUpon>Example5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConditionalStatements\Example5.aspx.designer.cs">
+      <DependentUpon>Example5.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -210,12 +260,40 @@
     <Compile Include="Home\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="InputOutput\InputOutput.aspx.cs">
-      <DependentUpon>InputOutput.aspx</DependentUpon>
+    <Compile Include="InputOutput\Example1.aspx.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="InputOutput\InputOutput.aspx.designer.cs">
-      <DependentUpon>InputOutput.aspx</DependentUpon>
+    <Compile Include="InputOutput\Example1.aspx.designer.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InputOutput\Example2.aspx.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputOutput\Example2.aspx.designer.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InputOutput\Example3.aspx.cs">
+      <DependentUpon>Example3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputOutput\Example3.aspx.designer.cs">
+      <DependentUpon>Example3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InputOutput\Example4.aspx.cs">
+      <DependentUpon>Example4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputOutput\Example4.aspx.designer.cs">
+      <DependentUpon>Example4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InputOutput\Example5.aspx.cs">
+      <DependentUpon>Example5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputOutput\Example5.aspx.designer.cs">
+      <DependentUpon>Example5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Loops\Example1.aspx.cs">
       <DependentUpon>Example1.aspx</DependentUpon>
@@ -265,6 +343,48 @@
     </Compile>
     <Compile Include="ConditionalStatements\ConditionalStatements.aspx.designer.cs">
       <DependentUpon>ConditionalStatements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InputOutput\InputOutput.aspx.cs">
+      <DependentUpon>InputOutput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InputOutput\InputOutput.aspx.designer.cs">
+      <DependentUpon>InputOutput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Variables\Example1.aspx.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Variables\Example1.aspx.designer.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Variables\Example2.aspx.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Variables\Example2.aspx.designer.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Variables\Example3.aspx.cs">
+      <DependentUpon>Example3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Variables\Example3.aspx.designer.cs">
+      <DependentUpon>Example3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Variables\Example4.aspx.cs">
+      <DependentUpon>Example4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Variables\Example4.aspx.designer.cs">
+      <DependentUpon>Example4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Variables\Example5.aspx.cs">
+      <DependentUpon>Example5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Variables\Example5.aspx.designer.cs">
+      <DependentUpon>Example5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Variables\Variables.aspx.cs">
       <DependentUpon>Variables.aspx</DependentUpon>
